@@ -1,22 +1,23 @@
-# Ticket 3: Generate visual financial health reports
+# Ticket 1: View all transactions
 
 **Description**  
-The "Generate visual financial health reports" feature allows users to create visual representations of their financial health, summarizing key metrics such as income, expenses, and savings progress. This feature fits within the Financial Planner app by providing users with clear insights into their financial situation, facilitating better planning and management of their finances. By generating visual reports, users can easily understand their financial status, identify trends, and make informed decisions to improve their financial health.
+The "View all transactions" feature provides users with an overview of all their financial transactions within the Financial Planner app. This feature is essential for enabling users to track their income and expenditures effectively, allowing them to categorize transactions and gain insights into their spending habits. By offering a comprehensive view of all transactions, users can make informed financial decisions, monitor their budgets, and work towards their financial goals. This feature fits within the broader context of the Financial Planner app, which aims to empower users to manage their financial health and achieve greater financial stability.
 
 **Functionality**  
-- Users can generate visual reports that display their income, expenses, and savings over a specified time period.
-- Users can select different report formats, such as pie charts, bar graphs, or line graphs, to visualize their financial data.
-- Users can filter reports by date range, categories (e.g., monthly, quarterly, yearly), or specific financial goals.
-- Users can view comparative analyses of income versus expenses to assess their financial health.
-- Users can download or export reports in various formats (e.g., PDF, CSV) for personal records or sharing.
-- Users can customize the visual elements of the reports, such as colors and styles, to enhance readability.
-- Users can access historical reports to track changes in their financial health over time.
+- Users can view a complete list of all transactions, including both income and expenses.
+- Users can filter transactions by date range, category, or amount to find specific entries.
+- Users can search for specific transactions using keywords or transaction details.
+- Each transaction displays relevant information, such as date, amount, category, and description.
+- Users can edit existing transactions to update details such as amount or category.
+- Users can delete transactions that are no longer relevant or needed.
+- Users can categorize transactions for better financial insights and reporting.
+- Users can export transaction data to a CSV or PDF format for external analysis or record-keeping.
 
 **Requirements**  
-- The feature must integrate with the existing database to retrieve user-specific income, expense, and savings data.
-- The app must implement a reporting engine that can generate visual representations of financial data based on user inputs and selections.
-- The feature must allow users to specify date ranges and categories for filtering the reports.
-- The app must provide options for different visual formats (charts, graphs, tables) and allow users to customize these formats.
-- The feature must include functionality for exporting reports in multiple formats, including PDF and CSV.
-- The app must ensure that historical data is accessible for generating comparative reports.
+- The feature must integrate with the backend database to retrieve user-specific transaction data.
+- The app must allow users to filter transactions based on date range, category, and amount.
+- The app must implement a search functionality that allows users to find specific transactions using keywords.
+- Each transaction entry must include fields for date, amount, category, and description, which must be editable by the user.
+- The app must allow users to categorize transactions and provide a predefined list of categories for selection.
+- The feature must include an export option that allows users to download their transaction data in CSV or PDF format.
 - The implementation must follow the design specifications outlined in Design 1.
